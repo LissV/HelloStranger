@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-title h1{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.banner {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #498547;  
+}
+
+.banner img{
+  width: 100%;
+}
+
+.nav-title{
+  font-family: 'Old Standard TT', serif;
+  color: antiquewhite;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.nav-title:hover{
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: rgb(255, 255, 255) 0 0 10px;
+  filter: glow(color=rgb(255, 255, 255),strength=3);
+}
+
+.register-title{
+  color: #498547;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 900;
+  font-size: 24pt;
+}
+
+.register-form{
+  border: #498547;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5%;
+}
+
+.register-label{
+  font-family: 'Old Standard TT', serif;
+}
+
+.input-text{
+  font-family: 'PT Serif', serif;
+  font-size: 10pt;
+  padding-left: 1%;
+}
+
+.input-area{
+  border: #498547;
+  border-width: 1px;
+  border-style: solid; 
+  width: 90%;
+  overflow: auto;
+}
+
+.form-container{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  width: 40%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.greeting-first{
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.greeting-main{
+  font-family: 'Oranienbaum', serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.greeting-container{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer{
+  padding-left: 2%;
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+}
+
+.footer a{
+  margin: 0;
+  color: #498547;
+}
+
+.footer a:hover{
+  margin: 0;
+  color: #498547;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.footer p{
+  margin: 0;
+}
+
+.hr{
+  height: 1px;
+  border-width: 1px;
+  border-color: #c3c9c3;
+  width: 70%;
+}
+
+.container{
+  width: 50%;
+}
+
+.chat-area {
+  content: '';
+  width: 100%;
+  height: calc(100vh - 165px);
+  background: rgb(233, 229, 229);
+  padding: 5px 10px;
+  overflow: auto;
+  margin-bottom: 3%;
+  border: #dddfdd;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.chat-area p {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  font-family: 'PT Serif', serif;
+  font-size: 14pt;
+}
+
+.chat-title{
+  margin-top: 3%;
+  color: #0d0e0d;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
+  font-size: 30pt;
+  margin-bottom: 0;
+}
+
+.errors{
+  border: #bb440d;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5%;
+}
+
